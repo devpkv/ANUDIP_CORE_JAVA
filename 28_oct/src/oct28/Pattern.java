@@ -17,15 +17,23 @@ public class Pattern {
 	
 	public static void pattern2(int lines)
 	{
-		for(int i = 1; i <= lines; i++)
+		for(int i = lines; i >= 1; i--)
 		{
-			// new iteration for printing pattern
-			for(int p = 1; p <= i; p++)
+			 
+			for(int j = 1; j <= lines; j++)
 			{
-				System.out.print(p+" ");
+				if(j == i)
+				{
+					for(int k = 1; k <= (lines - j); k++)
+						System.out.print("* ");
+					
+				}
+				else
+					System.out.print(" ");
 			}
 			System.out.println();
 		}
+		 
 	}
 	public static void main(String[] args) {
 		 
