@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class DoWhile {
 	
+	// method to print the table
 	private static void printTable(int num)
 	{
 		 
