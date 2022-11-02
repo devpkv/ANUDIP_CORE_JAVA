@@ -1,4 +1,4 @@
-package com.employee; 
+package employees; 
 
 public class EmployeeTest {
 
