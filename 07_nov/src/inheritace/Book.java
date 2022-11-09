@@ -19,6 +19,8 @@ public abstract class Book {
 				+ price + "]");
 	}
 	
+	
+	
 	protected abstract void type();
 	
 }
