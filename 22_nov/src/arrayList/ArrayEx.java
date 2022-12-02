@@ -5,18 +5,19 @@ import java.util.*;
 public class ArrayEx {
 
 	public static void main(String[] args) {
-		
+		int a[] = {};
+		System.out.println(a.length);
 		ArrayList<Integer> al1 = new ArrayList<Integer>();
 		al1.add(3); 
 		al1.add(6);
-		
+		 
 		ArrayList<Integer> al2 = new ArrayList<>();
 		
 		al2.add(1);
 		al2.add(2);
 		al2.add(4);
 		al2.add(5);
-		
+		 
 		// extends array 1 al1 elements to array 2 al2
 		
 		al2.addAll(al1);
@@ -54,6 +55,8 @@ public class ArrayEx {
 		System.out.println("Cleared Array 1 elements "+ al1.size());
 		al2.clear();
 		System.out.println("Cleared Array 2 elements "+ al2.size());
+		
+	 
 	}
 
 }
